@@ -1,0 +1,82 @@
+.write{
+    padding-top: 4rem;
+}
+.writeImg{
+    margin-left: 10rem;
+    width: 30%;
+    height: 30%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.writeForm{
+    position: relative;
+    
+}
+.writeFormGroup{
+    position: relative;
+    margin-left:1rem;
+    display: flex;
+    align-items: center;
+     flex-wrap: wrap; 
+      /* //wrap heare */
+}
+
+input{
+    border: 2px solid green;
+}
+
+.writeIcon{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.writeInput{
+    font-size: 3rem;
+    border: none;
+    padding: 2rem;
+    width: 80%;
+    /* change vw to % */
+}
+.writeInput::placeholder{
+    color: #010101;
+    font-weight: 400;
+}
+.writeInput:focus{
+    outline-style: none;
+}
+.writeText{
+    width: 70vw;
+    height: 100vh;
+    font-size: 2rem;
+}
+.writeSubmit{
+
+    color: white;
+    background-color: teal;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+ @media screen and (max-width : 500px) {
+    .writeImg{
+        margin-left: 3rem;
+        width: 80%;
+        height: 80%;
+        border-radius: 1rem;
+        object-fit: cover;
+    }
+    .writeSubmit{
+        margin-left: 8rem;
+    }
+} 
